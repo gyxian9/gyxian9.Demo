@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <example.demo.gyx.indexlistview.SearchBar
+        android:id="@+id/main_search_bar"
+        android:layout_marginTop="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@mipmap/search_bar_icon_normal"
+        android:hint="请输入关键字"
+        android:singleLine="true"
+        android:textSize="16dp"
+        />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:layout_gravity="center"
+            android:id="@+id/main_list_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@null">
+
+        </ListView>
+
+        <TextView
+            android:id="@+id/main_dialog"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:gravity="center"
+            android:text="A"
+            android:layout_gravity="center"
+            android:textSize="28sp"
+            android:textColor="#ffffffff"
+            android:background="@color/green"
+            android:visibility="invisible"/>
+        <example.demo.gyx.indexlistview.SiderBar
+            android:id="@+id/main_sider_bar"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="right|center"/>
+    </FrameLayout>
+
+
+</LinearLayout>
