@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">person_comment_client</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_welcome">WelcomeActivity</string>
+    <string name="title_activity_welcome_guide">WelcomeGuideActivity</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_city">CityActivity</string>
+
+
+    <!-- 城市 -->
+    <string name="city_name">所在城市</string>
+    <string name="city_country">国内城市</string>
+    <string name="city_default">北京</string>
+    <string name="city_choose">选择城市</string>
+    <string name="city_location">定位城市</string>
+    <string name="city_search">正在定位中&#8230;</string>
+    <string name="title_activity_all_category">AllCategoryActivity</string>
+    <string name="title_activity_goods_detail">GoodsDetailActivity</string>
+    <string name="title_activity_near_by_map">NearByMapActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_registered">RegisteredActivity</string>
+
+</resources>

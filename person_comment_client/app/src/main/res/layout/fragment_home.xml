@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/normal_orange_color">
+
+        <TextView
+            android:id="@+id/index_top_city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:drawableLeft="@mipmap/home_ico_city"
+            android:drawablePadding="@dimen/little_space"
+            android:textColor="@color/white"
+            android:text="选择城市"
+            android:padding="10dp"/>
+
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="首页"
+            android:layout_centerInParent="true"
+            android:textSize="@dimen/title_text_size"
+            android:textColor="@color/white"
+            android:padding="10dp"/>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/index_top_scan"
+            android:layout_centerVertical="true"
+            android:contentDescription="@null"
+            android:layout_marginRight="@dimen/normal_space"
+            android:layout_alignParentRight="true"
+            android:src="@mipmap/nav_icon_scan_nor"/>
+
+    </RelativeLayout>
+
+    <GridView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/home_gridview"
+        android:numColumns="3"
+        android:scrollbars="none"
+        android:padding="5dp"
+        android:background="@color/white"
+        ></GridView>
+
+</LinearLayout>

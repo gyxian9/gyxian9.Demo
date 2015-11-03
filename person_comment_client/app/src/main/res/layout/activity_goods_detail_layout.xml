@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:background="#ffffff"
+    android:padding="5dp">
+    <TextView
+        android:id="@+id/goods_detail_layout_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="本单详情"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:scaleType="fitXY"
+        android:layout_gravity="center"
+        android:src="@mipmap/ic_detail_divider"/>
+
+    <WebView
+        android:id="@+id/goods_detail_layout_webView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:scaleType="fitXY"
+        android:layout_gravity="center"
+        android:src="@mipmap/ic_detail_divider"/>
+
+    <TextView
+        android:id="@+id/goods_detail_layout_more_details"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10.0dip"
+        android:text="查看图文详情"
+        android:textColor="@color/normal_orange_color"
+        android:textSize="16sp" />
+</LinearLayout>
